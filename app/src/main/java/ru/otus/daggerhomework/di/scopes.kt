@@ -9,7 +9,4 @@ annotation class ApplicationScope
 annotation class ActivityScope
 
 @Scope
-annotation class ProducerScope
-
-@Scope
-annotation class ReceiverScope
+annotation class FragmentScope
