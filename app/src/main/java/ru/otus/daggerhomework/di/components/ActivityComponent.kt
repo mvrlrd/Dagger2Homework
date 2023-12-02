@@ -19,7 +19,6 @@ interface ActivityComponent {
 
     fun inject(mainActivity: MainActivity)
 
-    @Named("applicationContext")
     fun provideAppContext(): Context
 
     @Named("mainActivityContext")

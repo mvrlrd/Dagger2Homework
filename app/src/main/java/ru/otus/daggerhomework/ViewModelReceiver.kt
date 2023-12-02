@@ -10,11 +10,9 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import ru.otus.daggerhomework.color_manager.ColorObserver
 import javax.inject.Inject
-import javax.inject.Named
 
 class ViewModelReceiver @Inject constructor(
     private val colorObserver: ColorObserver,
-    @Named("applicationContext")
     private val context: Context
 ) {
     private val _backgroundLiveData = MutableLiveData<Int>()
